@@ -1,0 +1,1258 @@
+{
+  "common": {
+    "optional": "Optional",
+    "loading": "Loading"
+  },
+  "site": {
+    "skipToContent": "Skip to content",
+    "homeLink": "{brand} home",
+    "nav": {
+      "label": "Main",
+      "home": "Home",
+      "about": "About",
+      "discover": "Discover",
+      "dating": "Dating",
+      "community": "Community",
+      "events": "Events",
+      "stories": "Stories",
+      "safety": "Safety",
+      "membership": "Membership",
+      "help": "Help and FAQs",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "guidelines": "Community Guidelines"
+    },
+    "join": "Join",
+    "signIn": "Sign in",
+    "joinBrand": "Join {brand}",
+    "menu": "Menu",
+    "menuLabel": "Site menu",
+    "footer": {
+      "label": "Footer",
+      "explore": "Explore",
+      "about": "{brand}",
+      "legal": "Legal",
+      "owner": "© {year} {owner}",
+      "drafts": "Our legal pages are drafts under legal review."
+    },
+    "illustration": "Illustration. The people shown are invented, not members.",
+    "markets": "Registration opens first in {markets}.",
+    "stagedTitle": "Opening in stages",
+    "onThisPage": "On this page"
+  },
+  "home": {
+    "meta": {
+      "description": "Dating, friendship, community and events, built around people of short stature and open to everyone who connects with respect."
+    },
+    "title": "Dating, friendship and community, built around people of short stature.",
+    "building": "{brand} is a place to meet people, make friends and find community, built around people of short stature and open to everyone who connects with respect.",
+    "markets": "Registration opens first in {markets}.",
+    "howLink": "See how it works",
+    "horizon": {
+      "connected": "Connected",
+      "new": "New message"
+    },
+    "who": {
+      "title": "Who it's for",
+      "intro": "One community, with people of short stature at its centre.",
+      "items": [
+        {
+          "title": "Adults of short stature",
+          "body": "The people {brand} is built around. Your safety, dignity and privacy shape every decision."
+        },
+        {
+          "title": "People of all heights",
+          "body": "Anyone looking for genuine, respectful connection is welcome, on equal terms."
+        },
+        {
+          "title": "Families and allies",
+          "body": "Parents, partners, friends and supporters who want to be part of the community."
+        },
+        {
+          "title": "Organisations and partners",
+          "body": "Groups that run events, share opportunities and support the community, once they're verified."
+        }
+      ]
+    },
+    "why": {
+      "title": "Why it exists",
+      "statement": "Too often, people of short stature are treated online as a curiosity rather than as people. {brand} starts from the other side: a place where everyone meets as an equal, and nobody is anyone's novelty.",
+      "body": "Mainstream apps weren't designed with this community in mind, and support forums aren't where people go to date or make friends. {brand} brings dating, friendship, community and opportunity together in one place, with safety built in from the start."
+    },
+    "how": {
+      "title": "How people connect",
+      "steps": [
+        {
+          "title": "Make your profile",
+          "body": "Share as much or as little as you like. Saying how you identify is optional and private unless you choose to show it."
+        },
+        {
+          "title": "Discover",
+          "body": "Find people, communities and events by interests, languages and what you're looking for, nearby or worldwide."
+        },
+        {
+          "title": "Connect when it's mutual",
+          "body": "A match happens only when you both say yes. Nobody can message you just because they found your profile."
+        },
+        {
+          "title": "Talk, meet and belong",
+          "body": "Chat with your matches, join groups and go to events, with blocking and reporting always one step away."
+        }
+      ],
+      "matchName": "Wanjiru",
+      "matchMeta": "29, Nairobi",
+      "matchIntention": "Looking for friendship first",
+      "matchShared": "You both like",
+      "matchInterests": ["Hiking", "Afrobeats", "Photography"]
+    },
+    "experiences": {
+      "title": "What you can do here",
+      "intro": "{brand} is opening in stages, starting with profiles and discovery. Each part opens together with its safety tools, never before them.",
+      "dating": {
+        "title": "Dating",
+        "body": "Say what you're looking for, from marriage to friendship first, and match only when it's mutual."
+      },
+      "friendship": {
+        "title": "Friendship",
+        "body": "Meet people who share your interests and languages, wherever they live."
+      },
+      "community": {
+        "title": "Community",
+        "body": "Groups and conversations on life, family, travel, fashion, careers and more."
+      },
+      "events": {
+        "title": "Events",
+        "body": "Meetups, dating events, gatherings and conferences, in person and online."
+      },
+      "opportunities": {
+        "title": "Opportunities",
+        "body": "Jobs, mentorship, scholarships and partnerships from verified organisations."
+      },
+      "more": "About {topic}"
+    },
+    "safety": {
+      "title": "Safe, private and respectful by design",
+      "body": "Safety isn't a feature we add later. It's how {brand} is built.",
+      "items": [
+        "Adults only: everyone is 18 or older.",
+        "Verification is optional and never a condition of joining.",
+        "How you identify is your choice, and private by default.",
+        "Your location is never more precise than your city.",
+        "Block and report from any profile, message or post.",
+        "Objectification and fetishisation are against the rules."
+      ],
+      "link": "How we keep people safe"
+    },
+    "membership": {
+      "title": "Free to join",
+      "body": "Free membership is what's available at launch, and it covers the essentials:",
+      "later": "Plus and Premium plans will come later, with extras such as advanced filters. Safety tools are part of every membership.",
+      "link": "Compare memberships"
+    },
+    "cta": {
+      "title": "Be one of the first to join.",
+      "body": "Create your profile, choose what you share, and help shape a community that's built with you."
+    }
+  },
+  "pages": {
+    "about": {
+      "meta": {
+        "title": "About",
+        "description": "Why {brand} exists, who it's for and the principles it's built on."
+      },
+      "title": "About {brand}",
+      "lead": "{brand} is a social network for dating, friendship, community, events and opportunities. It's built around people of short stature and open to people of all heights who connect with respect.",
+      "mission": {
+        "title": "Our mission",
+        "body": [
+          "A world where everyone belongs, and meaningful connections have no boundaries.",
+          "That means a place where people of short stature can date, make friends, find community and grow their careers without having to explain themselves first."
+        ]
+      },
+      "centre": {
+        "title": "Built around people of short stature",
+        "body": [
+          "Adults of short stature are the community at the centre of {brand}. Product decisions start with their safety, dignity, privacy and ownership.",
+          "Everyone else is welcome on the same terms: as an equal, here to connect with people rather than to look at them."
+        ]
+      },
+      "principles": {
+        "title": "What we hold to",
+        "items": [
+          {
+            "title": "Everyone meets as an equal.",
+            "body": "Nobody is a curiosity or an attraction. Language that treats people that way isn't allowed."
+          },
+          {
+            "title": "You decide what you share.",
+            "body": "How you identify is self-described, optional and private unless you choose to show it."
+          },
+          {
+            "title": "Safety comes with every feature.",
+            "body": "Blocking, reporting and moderation open at the same time as the features they protect."
+          },
+          {
+            "title": "No ranking by looks.",
+            "body": "We don't rank people by appearance, height or popularity, and we don't guess things about you from your photos."
+          },
+          {
+            "title": "Honest about what's ready.",
+            "body": "We say what exists today and what's still coming. No invented members, numbers or stories."
+          }
+        ]
+      },
+      "markets": {
+        "title": "Where we're starting",
+        "body": "More countries will follow once safety, payments and legal work are ready in each one."
+      }
+    },
+    "discover": {
+      "meta": {
+        "title": "Discover",
+        "description": "Find people, communities and events by interests, languages and intentions, with approximate locations only."
+      },
+      "title": "Discover people, communities and events",
+      "lead": "Find people who share your interests, languages and intentions, nearby or anywhere in the world.",
+      "staged": "Discovery opens soon after profiles, with nearby discovery switched off until you turn it on.",
+      "what": {
+        "title": "What you can discover",
+        "items": [
+          "People near you, by city or a distance range",
+          "People anywhere in the world",
+          "People who share your interests",
+          "New friends",
+          "People to date",
+          "Communities to join",
+          "Events to go to"
+        ]
+      },
+      "filters": {
+        "title": "Filters you control",
+        "body": "Narrow things down by:",
+        "items": [
+          "Country",
+          "City or distance range",
+          "Age range",
+          "Languages",
+          "Interests",
+          "What people are looking for",
+          "Your own compatibility preferences"
+        ]
+      },
+      "location": {
+        "title": "Your location stays approximate",
+        "body": [
+          "Discovery uses the country and optional city you enter, never your device's location. Nobody sees your exact location or address, and we don't track where you go.",
+          "Your city is hidden until you choose to show it, and nearby discovery is off until you turn it on."
+        ]
+      },
+      "recommendations": {
+        "title": "Suggestions you can understand",
+        "body": [
+          "Suggestions are based on what you've told us: shared interests, languages and intentions. Each one says why it's there, and you can change what counts.",
+          "We never rank people by appearance, height or popularity, and we don't infer anything about you from your photos."
+        ]
+      },
+      "example": {
+        "name": "Tomás",
+        "meta": "34, Mombasa",
+        "why": "Why you're seeing Tomás",
+        "reasons": [
+          "You both speak Swahili",
+          "You both like cooking",
+          "You're both open to friendship"
+        ]
+      }
+    },
+    "dating": {
+      "meta": {
+        "title": "Dating",
+        "description": "Say what you're looking for and match only when the interest is mutual, with respect as the rule."
+      },
+      "title": "Dating that starts with what you're looking for",
+      "lead": "Say what you want, see who wants the same, and talk only when the interest is mutual.",
+      "staged": "Dating opens after profiles and discovery, together with messaging, blocking and reporting.",
+      "intentions": {
+        "title": "Say what you're looking for",
+        "body": "Choose one, and change it whenever you like:",
+        "items": [
+          "A long-term relationship",
+          "Dating with marriage in mind",
+          "Casual dating",
+          "Getting to know people",
+          "Friendship first",
+          "Not sure yet"
+        ]
+      },
+      "how": {
+        "title": "How matching works",
+        "steps": [
+          {
+            "title": "Like or pass",
+            "body": "Likes are private, and passing is silent: nobody is told."
+          },
+          {
+            "title": "Match when it's mutual",
+            "body": "You match only when you both like each other."
+          },
+          {
+            "title": "Talk when you're ready",
+            "body": "Conversations open after a match, within each person's message settings."
+          },
+          {
+            "title": "Stay in control",
+            "body": "Unmatch, block or report at any time, from the profile or the conversation."
+          }
+        ]
+      },
+      "respect": {
+        "title": "Respect is the rule",
+        "body": [
+          "Dating here is about the person, never their height. Objectifying or fetishising anyone breaks our Community Guidelines and can get an account removed.",
+          "Nobody is ranked by physical characteristics, and we never infer health conditions, attractiveness or preferences from photos."
+        ],
+        "link": "Read the Community Guidelines"
+      },
+      "example": {
+        "name": "Amani",
+        "meta": "31, Nakuru",
+        "matched": "You matched",
+        "intention": "Looking for a long-term relationship"
+      }
+    },
+    "community": {
+      "meta": {
+        "title": "Community",
+        "description": "Groups, discussions and opportunities on the things that shape your life, moderated by people."
+      },
+      "title": "Community groups and conversations",
+      "lead": "Join groups around the things that shape your life, from parenting and travel to careers and fashion, or start one of your own.",
+      "staged": "Communities open in a later stage, with reporting and moderation in place from the first post.",
+      "categories": {
+        "title": "Groups for",
+        "items": [
+          "Life experiences",
+          "Dating and relationships",
+          "Parenting and family",
+          "Travel",
+          "Fashion",
+          "Fitness and recreation",
+          "Business",
+          "Education",
+          "Careers",
+          "Entertainment",
+          "Health and wellbeing",
+          "Your country"
+        ]
+      },
+      "types": {
+        "title": "Open, private or by approval",
+        "items": [
+          {
+            "title": "Public",
+            "body": "Anyone on {brand} can find the group and join."
+          },
+          {
+            "title": "Approval",
+            "body": "Anyone can find it, and the owners approve who joins."
+          },
+          {
+            "title": "Private",
+            "body": "Only members can see the group and what's posted in it."
+          }
+        ]
+      },
+      "features": {
+        "title": "What you can do",
+        "body": "Post, share photos and videos, comment and reply, react, run polls, share stories and follow announcements. You choose who can see what you share, and anything can be reported."
+      },
+      "moderation": {
+        "title": "Moderated by people",
+        "body": "Group owners can approve members and moderate posts. Our moderation team reviews reports, and a person always makes the final call, even when tools help sort reports."
+      },
+      "map": {
+        "title": "A map of community, not of people",
+        "body": [
+          "A global map will show countries with active communities, public events, international groups and virtual gatherings.",
+          "It uses combined numbers only. A city appears only when enough people are there that nobody can be singled out, and the map never shows where an individual member is."
+        ]
+      },
+      "opportunities": {
+        "title": "Opportunities",
+        "body": [
+          "Verified organisations will be able to share jobs, mentorship, scholarships, courses, entrepreneurship support, advocacy and partnerships.",
+          "Organisations never get open access to member profiles, private messages or member lists. You choose whether to get in touch."
+        ]
+      }
+    },
+    "events": {
+      "meta": {
+        "title": "Events",
+        "description": "Meetups, dating events, gatherings and conferences, in person and online, with safety controls for physical events."
+      },
+      "title": "Events and meetups",
+      "lead": "Meet in person or online, at community meetups, dating events, social gatherings, conferences and recreational activities.",
+      "staged": "Events open in a later stage.",
+      "kinds": {
+        "title": "In person and online",
+        "body": [
+          "Events can be physical or virtual, public or private. Each one shows who's organising it, where it happens or how to join, and its date and time in your own time zone.",
+          "RSVP in one step, and organisers can manage their guest list."
+        ]
+      },
+      "safety": {
+        "title": "Safety at physical events",
+        "items": [
+          "Organisers can approve attendees and keep the guest list private.",
+          "Exact venue details can be shared with confirmed attendees only.",
+          "Events and attendees can be reported, and anyone can be blocked.",
+          "Events from organisations come from verified organisations only."
+        ],
+        "link": "Tips for meeting people in person"
+      },
+      "empty": {
+        "title": "No events are listed yet",
+        "body": "When events open, the ones near you and online will appear here. Join now and your profile will be ready to RSVP."
+      }
+    },
+    "stories": {
+      "meta": {
+        "title": "Stories",
+        "description": "Stories members choose to share, published only with their consent."
+      },
+      "title": "Stories from the community",
+      "lead": "This page will hold stories members choose to share: how they met, the friendships they made and the communities they built.",
+      "consent": {
+        "title": "Shared only with consent",
+        "steps": [
+          {
+            "title": "You offer your story",
+            "body": "Stories come only from members who choose to tell them. We never turn a profile, post or message into a story."
+          },
+          {
+            "title": "Everyone in it agrees",
+            "body": "Anyone else named or pictured is asked too. If they say no, they're left out."
+          },
+          {
+            "title": "You approve the final version",
+            "body": "Before anything is published, you see exactly what will appear and where."
+          },
+          {
+            "title": "You can change your mind",
+            "body": "Ask for your story to come down at any time, and it's removed."
+          }
+        ]
+      },
+      "empty": {
+        "title": "No stories yet",
+        "body": "The first stories will come from members after launch. We won't publish invented ones."
+      }
+    },
+    "safety": {
+      "meta": {
+        "title": "Safety",
+        "description": "How {brand} protects members: adults only, optional verification, private identity, approximate location, blocking, reporting and human moderation."
+      },
+      "title": "Safety at {brand}",
+      "lead": "Safety tools open with every feature, never after it. Here's how {brand} protects you, and what you can do.",
+      "adults": {
+        "title": "Adults only",
+        "body": "Everyone on {brand} is 18 or older. We check date of birth when you sign up, and may ask for an age check where the law requires it or when an account is reported."
+      },
+      "verification": {
+        "title": "Verification is optional",
+        "body": "You can verify your identity to earn a badge. It's never a condition of joining, and it isn't a test of who belongs. A specialist provider runs the check. We keep the outcome, never your documents or images of them."
+      },
+      "identity": {
+        "title": "How you identify is your choice",
+        "body": "Saying you're a person of short stature, a family member or an ally is optional. It's private by default and shown on your profile only if you choose. We never ask for a diagnosis or medical records."
+      },
+      "location": {
+        "title": "Your location stays approximate",
+        "body": "{brand} knows only the country and optional city you enter. Your device's location is never used, your city is hidden until you show it, and nobody sees your address."
+      },
+      "tools": {
+        "title": "Block and report",
+        "body": "Block anyone, and they can no longer see or contact you. Report profiles, messages, posts and events. Reports go to our moderation team, a person makes the final decision, and you can appeal a decision about your own account."
+      },
+      "rules": {
+        "title": "What we act on",
+        "body": "These are the kinds of behaviour our moderators act on. The Community Guidelines explain each one.",
+        "link": "Read the Community Guidelines"
+      },
+      "messages": {
+        "title": "About messages",
+        "body": "Messages are protected in transit between your device and our servers. They're not end-to-end encrypted, and we won't say they are unless that changes."
+      },
+      "meeting": {
+        "title": "Meeting someone in person",
+        "items": [
+          "Meet somewhere public for the first few times.",
+          "Tell a friend where you're going and who you're meeting.",
+          "Arrange your own way there and back.",
+          "Keep talking on {brand} until you trust someone.",
+          "Never send money or share financial details.",
+          "Leave whenever you feel uncomfortable.",
+          "Report anyone who pressures you."
+        ]
+      },
+      "danger": {
+        "title": "If you're in danger",
+        "body": "If you're in immediate danger, contact your local emergency services first. Then report the account so we can act on it."
+      }
+    },
+    "membership": {
+      "meta": {
+        "title": "Membership and pricing",
+        "description": "Joining {brand} is free. See what free membership includes, and the Plus and Premium plans that come later."
+      },
+      "title": "Membership and pricing",
+      "lead": "Joining {brand} is free. Free membership is what's available at launch. Plus and Premium will come later.",
+      "available": "Available at launch",
+      "planned": "Coming later",
+      "free": {
+        "name": "Free",
+        "body": "Everything you need to meet people and take part.",
+        "cta": "Join for free"
+      },
+      "plus": {
+        "name": "{brand} Plus",
+        "body": "More ways to find the right people."
+      },
+      "premium": {
+        "name": "{brand} Premium",
+        "body": "Everything in Plus, with event benefits and more personalisation."
+      },
+      "includes": "Includes",
+      "everythingIn": "Everything in {plan}, and:",
+      "plannedNote": "Planned features. These may change before the plan opens.",
+      "price": "{price} a month in {market}",
+      "noPrice": "Price to be announced.",
+      "features": {
+        "account": "Create an account",
+        "profile": "A full profile with photos",
+        "basicDiscovery": "Discover people, communities and events",
+        "communityParticipation": "Join communities and conversations",
+        "mutualMatching": "Match when the interest is mutual",
+        "messaging": "Message your matches, with safety controls",
+        "publicEvents": "Find public events",
+        "advancedFilters": "Advanced discovery filters",
+        "expandedDiscovery": "See more people each day",
+        "incomingLikes": "See who has liked you",
+        "advancedPreferences": "Advanced preferences",
+        "customisation": "More ways to customise your profile",
+        "enhancedRecommendations": "Enhanced recommendations",
+        "profileBoosts": "Optional profile boosts",
+        "advancedDiscovery": "Advanced discovery",
+        "eventBenefits": "Premium event benefits",
+        "personalisation": "More personalisation"
+      },
+      "safety": {
+        "title": "Safety is never a paid extra",
+        "body": "Blocking, reporting, privacy controls and optional verification are part of every membership. Paying for a plan is kept separate from identity verification, and it never changes how moderation treats you."
+      },
+      "payments": {
+        "title": "Prices and payment",
+        "body": "When paid plans open, their price in your local currency will be shown here and before you pay. We don't sell members' personal data."
+      }
+    },
+    "help": {
+      "meta": {
+        "title": "Help and FAQs",
+        "description": "Answers to common questions about joining {brand}, privacy, safety and your account."
+      },
+      "title": "Help and FAQs",
+      "lead": "Answers to common questions. If yours isn't here, see Contact.",
+      "contactLink": "Contact",
+      "groups": [
+        {
+          "title": "Joining",
+          "questions": [
+            {
+              "q": "Who can join?",
+              "a": "Anyone aged 18 or older who agrees to treat others with respect. {brand} is built around people of short stature and open to people of all heights."
+            },
+            {
+              "q": "Where can I sign up?",
+              "a": "We're opening country by country, so safety, payments and legal requirements are ready in each place first. This site lists the countries that are open."
+            },
+            {
+              "q": "Is it free?",
+              "a": "Yes. Free membership is what's available at launch. Paid plans with extra features will come later, and safety tools are part of every membership."
+            },
+            {
+              "q": "Do I have to say I'm a person of short stature?",
+              "a": "No. Saying how you identify is optional. If you do, it's private unless you choose to show it, and you can remove it at any time. We never ask for a diagnosis or medical records."
+            },
+            {
+              "q": "Do I have to verify my identity?",
+              "a": "No. Verification is optional and earns a badge. It's never a condition of joining."
+            }
+          ]
+        },
+        {
+          "title": "Privacy",
+          "questions": [
+            {
+              "q": "Can anyone see where I live?",
+              "a": "No. {brand} only knows the country and optional city you enter. Your city is hidden until you show it, and we never use your device's location."
+            },
+            {
+              "q": "Who can see my photos?",
+              "a": "Your photos are kept in private storage and shown according to your privacy settings. They aren't available at public web addresses."
+            },
+            {
+              "q": "Can I download or delete my data?",
+              "a": "Yes. You can ask for a copy of your data, and you can delete your account. Deletion starts with your account being deactivated straight away, then everything is permanently removed after a short grace period."
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "questions": [
+            {
+              "q": "How do I report someone?",
+              "a": "Use the report option on their profile, a message or a post. Reports go to our moderation team, and a person makes the final decision."
+            },
+            {
+              "q": "What happens when I block someone?",
+              "a": "They can no longer see your profile or contact you. They aren't told that you blocked them."
+            },
+            {
+              "q": "Someone made me uncomfortable because of my height. What can I do?",
+              "a": "Report them. Objectifying or fetishising anyone is against our Community Guidelines, and accounts that do it can be removed."
+            }
+          ]
+        },
+        {
+          "title": "Your account",
+          "questions": [
+            {
+              "q": "I can't sign in.",
+              "a": "Use the reset option on the sign-in page to choose a new password. If that doesn't work, see Contact."
+            }
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact",
+        "description": "How to reach {brand}, find answers and report a safety concern."
+      },
+      "title": "Contact",
+      "lead": "The quickest way to an answer is usually Help and FAQs. Here's how to reach us for everything else.",
+      "email": {
+        "title": "Write to us",
+        "body": "For questions about your account, privacy or anything else, email <link>{email}</link>."
+      },
+      "noEmail": {
+        "title": "Our support address is on its way",
+        "body": "We haven't published a support address yet. Until we do, these pages cover the most common questions."
+      },
+      "help": {
+        "title": "Questions about {brand}",
+        "body": "Joining, privacy, safety and your account.",
+        "link": "Help and FAQs"
+      },
+      "safety": {
+        "title": "Reporting a member or content",
+        "body": "Use the report option on the profile, message or post. It goes straight to our moderation team.",
+        "link": "How safety works"
+      },
+      "privacy": {
+        "title": "Privacy requests",
+        "body": "To access, correct, export or delete your data.",
+        "link": "Privacy Policy"
+      },
+      "danger": "If you're in immediate danger, contact your local emergency services."
+    }
+  },
+  "legal": {
+    "draft": {
+      "title": "Draft — under legal review",
+      "body": "This is a working draft. It hasn't been reviewed by a lawyer yet and will change before {brand} launches. It isn't legal advice."
+    },
+    "operator": "{brand} is operated by {entity}.",
+    "address": "Registered address: {address}.",
+    "operatorTbc": "The company that operates {brand} is to be confirmed. Its name, registered address and contact details will appear here before launch.",
+    "privacyContact": "For privacy questions, or to use any of your rights, email <link>{email}</link>.",
+    "privacyContactTbc": "A contact address for privacy requests is to be confirmed and will appear here before launch.",
+    "privacy": {
+      "meta": {
+        "title": "Privacy Policy",
+        "description": "Draft Privacy Policy: what {brand} collects, why, how sensitive information is protected, and your rights."
+      },
+      "title": "Privacy Policy",
+      "lead": "What {brand} collects, why, how we protect it, and the choices and rights you have.",
+      "sections": {
+        "about": {
+          "title": "About this policy",
+          "paragraphs": [
+            "This policy explains how {brand} handles personal data. It's written with Kenya's Data Protection Act, 2019 and the EU and UK General Data Protection Regulation (GDPR) in mind. It doesn't claim compliance with any of them: that will be confirmed through legal and technical review before launch.",
+            "We collect only what we need to run the service and keep members safe."
+          ]
+        },
+        "operator": {
+          "title": "Who is responsible for your data",
+          "paragraphs": [
+            "The company that operates {brand} is the data controller for the personal data described here."
+          ]
+        },
+        "collect": {
+          "title": "What we collect",
+          "paragraphs": ["Depending on what you use, we hold:"],
+          "items": [
+            "Account details: your email address, a securely hashed password (never the password itself), your date of birth, and records of your sign-ins and active sessions.",
+            "Profile details you choose to add: display name, country, an optional city, languages, a short biography, interests, hobbies, what you're looking for and up to nine photos.",
+            "Your settings: privacy choices and discovery preferences, such as the age range you want to see.",
+            "How you identify, only if you choose to tell us (see below).",
+            "The outcome of any verification check you choose to take (see below).",
+            "Safety records: reports you make or that are made about you, blocks, moderation decisions and appeals.",
+            "An audit log of sensitive actions on your account, such as staff access or changes to your verification status.",
+            "Limited technical data, such as IP address and browser type, kept in security logs to protect accounts and prevent abuse."
+          ],
+          "after": [
+            "Messages, posts, events and payments are not part of {brand} yet. This policy will be updated to cover them before they open."
+          ]
+        },
+        "identity": {
+          "title": "How you identify: sensitive information",
+          "paragraphs": [
+            "You can tell us that you're a person of short stature, a member of any height who wants to be part of the community, a family member or an ally, or choose \"prefer not to say\". This is entirely voluntary.",
+            "Because it may reveal information about health or disability, we treat it as sensitive personal data, as Kenya's Data Protection Act and Article 9 of the GDPR do. So:"
+          ],
+          "items": [
+            "We ask for your explicit consent before storing it, and record when you gave it.",
+            "It's stored separately from the rest of your profile.",
+            "It's hidden by default. It appears on your profile only if you turn that on.",
+            "You can withdraw consent at any time, and it's deleted.",
+            "We never ask for a diagnosis or medical records, and never infer it from your photos or behaviour.",
+            "Staff can see it only when their role requires it, and that access is logged."
+          ]
+        },
+        "verification": {
+          "title": "Verification",
+          "paragraphs": [
+            "Verification is optional and never a condition of joining. If you choose to verify your identity, age or that you're a real person (a liveness check), a specialist verification provider runs the check.",
+            "We store only the outcome: the type of check, its result, when it happened and the provider's reference. We never store your identity documents, images of them, ID numbers or the selfies used for the check. The provider handles those under its own terms, which we'll link here once a provider is chosen."
+          ]
+        },
+        "location": {
+          "title": "Location",
+          "paragraphs": [
+            "We never collect your exact location. Our website turns off access to your device's location, and we store no coordinates.",
+            "We know only the country you choose and, if you add it, your city. Your city is hidden by default, and nearby discovery is off until you turn it on."
+          ]
+        },
+        "photos": {
+          "title": "Photos",
+          "paragraphs": [
+            "Photos are kept in private storage and served through short-lived links, never at public web addresses that could be guessed. We remove location data embedded in photo files before storing them, and photos are reviewed against our Community Guidelines."
+          ]
+        },
+        "use": {
+          "title": "How we use your data",
+          "items": [
+            "To run your account and show your profile according to your settings.",
+            "To suggest people, communities and events, based on what you've told us. We never rank people by appearance or infer sensitive characteristics from images.",
+            "To keep members safe: reviewing reports, enforcing our rules and preventing fraud, spam and abuse.",
+            "To protect accounts and the service, for example by detecting suspicious sign-ins.",
+            "To send you messages about your account, such as security alerts.",
+            "To meet our legal obligations."
+          ],
+          "after": ["We don't sell members' personal data."]
+        },
+        "bases": {
+          "title": "Our legal reasons for using data",
+          "items": [
+            "Contract: to provide the service you signed up for.",
+            "Consent: for how you identify and other optional information. You can withdraw it at any time.",
+            "Legitimate interests: to keep members and the service safe and secure, balanced against your rights.",
+            "Legal obligation: where the law requires us to keep or share information."
+          ]
+        },
+        "sharing": {
+          "title": "Who we share it with",
+          "items": [
+            "Other members, only what your profile and privacy settings allow.",
+            "Service providers that help us run {brand}, such as hosting, email and verification, under contracts that limit what they can do with it.",
+            "Authorities, when the law requires it or someone's safety is at serious risk."
+          ],
+          "after": [
+            "Organisations on {brand} never get access to member profiles, private messages or member lists."
+          ]
+        },
+        "transfers": {
+          "title": "International transfers",
+          "paragraphs": [
+            "Some of our providers store data outside Kenya and outside your country. When data leaves the country it was collected in, we put in place the safeguards the law requires, and this section will name the regions involved before launch."
+          ]
+        },
+        "retention": {
+          "title": "How long we keep it",
+          "paragraphs": [
+            "We keep your data while your account is open. When you delete your account, it's deactivated straight away and permanently deleted after a short grace period, including your profile, photos, how you identify, settings and verification outcomes.",
+            "Some records are kept longer where safety or the law requires it, such as the audit log of sensitive actions and records of serious rule-breaking. These never contain message content, documents or passwords."
+          ]
+        },
+        "rights": {
+          "title": "Your rights",
+          "paragraphs": ["You can:"],
+          "items": [
+            "Access the personal data we hold about you.",
+            "Correct anything that's wrong.",
+            "Delete your account and your data.",
+            "Export your data in a portable format.",
+            "Object to, or ask us to restrict, how we use it.",
+            "Withdraw consent you've given, at any time.",
+            "Complain to a data protection authority, such as Kenya's Office of the Data Protection Commissioner or the authority where you live."
+          ],
+          "after": [
+            "Deleting your account and downloading your data will be available from your account settings."
+          ]
+        },
+        "age": {
+          "title": "Adults only",
+          "paragraphs": [
+            "{brand} is only for people aged 18 or older. If we learn that an account belongs to someone younger, we close it and delete its data."
+          ]
+        },
+        "security": {
+          "title": "How we protect it",
+          "paragraphs": [
+            "Data is encrypted in transit and at rest. Staff access is limited to what each role needs, and every sensitive staff action is recorded in a log that can't be edited. No system is perfectly secure, so we'll tell you without undue delay if a breach puts you at risk."
+          ]
+        },
+        "changes": {
+          "title": "Changes to this policy",
+          "paragraphs": [
+            "We'll update this policy as {brand} adds features, and tell members about significant changes before they take effect."
+          ]
+        },
+        "contact": {
+          "title": "Contact",
+          "paragraphs": []
+        }
+      }
+    },
+    "terms": {
+      "meta": {
+        "title": "Terms of Service",
+        "description": "Draft Terms of Service: the agreement between you and {brand}."
+      },
+      "title": "Terms of Service",
+      "lead": "The agreement between you and {brand}: what you can expect from us, and what we expect from you.",
+      "sections": {
+        "agreement": {
+          "title": "This agreement",
+          "paragraphs": [
+            "By creating an account or using {brand}, you agree to these terms, our Community Guidelines and our Privacy Policy. If you don't agree, please don't use the service."
+          ]
+        },
+        "operator": {
+          "title": "Who we are",
+          "paragraphs": []
+        },
+        "eligibility": {
+          "title": "Who can use {brand}",
+          "items": [
+            "You must be 18 or older.",
+            "You must be able to enter a binding agreement where you live.",
+            "You may have one personal account.",
+            "You may not use {brand} if we've removed you before, unless we've agreed otherwise."
+          ]
+        },
+        "account": {
+          "title": "Your account",
+          "paragraphs": [
+            "Give accurate information, keep your password private and don't share your account. Tell us if you think someone else has accessed it. You're responsible for what happens on your account."
+          ]
+        },
+        "conduct": {
+          "title": "Treating others with respect",
+          "paragraphs": [
+            "{brand} is built around people of short stature, and everyone here meets as an equal. You agree to follow the Community Guidelines. In particular, you won't:"
+          ],
+          "items": [
+            "Harass, threaten, stalk or intimidate anyone.",
+            "Objectify or fetishise anyone, including because of their height or body.",
+            "Post hateful or discriminatory content.",
+            "Share intimate images of anyone without their consent.",
+            "Pretend to be someone else, or misrepresent your age.",
+            "Scam, solicit money from or defraud other members.",
+            "Send spam or use automated tools to access the service.",
+            "Try to get around blocks, restrictions or security measures."
+          ]
+        },
+        "content": {
+          "title": "Your content",
+          "paragraphs": [
+            "You own what you post. You give us permission to store and show it on {brand}, to the people your settings allow, only for as long as needed to run the service. When you delete content or your account, that permission ends, except where we must keep a copy for safety or legal reasons.",
+            "Only post content you have the right to share."
+          ]
+        },
+        "safety": {
+          "title": "Meeting people",
+          "paragraphs": [
+            "We work to keep {brand} safe, but we can't vet everyone or guarantee how people behave. We don't run criminal background checks. A verification badge shows that a check passed, not that someone is trustworthy. Take care when meeting people, and see our safety tips."
+          ]
+        },
+        "moderation": {
+          "title": "Moderation and enforcement",
+          "paragraphs": [
+            "If you break these terms or the Community Guidelines, we may remove content, warn you, restrict features, suspend or close your account. A person reviews decisions about accounts. You can appeal a decision, and we'll explain the outcome."
+          ]
+        },
+        "payments": {
+          "title": "Membership and payments",
+          "paragraphs": [
+            "Free membership is what's available at launch. Paid plans aren't on sale yet. When they open, their prices, renewal and cancellation terms will be shown before you pay, and payments will be covered by additional terms."
+          ]
+        },
+        "ending": {
+          "title": "Ending this agreement",
+          "paragraphs": [
+            "You can delete your account at any time. We may suspend or close accounts that break these terms or put others at risk, or if the law requires it."
+          ]
+        },
+        "liability": {
+          "title": "Our responsibility to you",
+          "paragraphs": [
+            "We provide {brand} with reasonable care and skill. Nothing in these terms limits rights you have under consumer law that can't be limited. Further terms on liability will be added after legal review."
+          ]
+        },
+        "law": {
+          "title": "Governing law",
+          "paragraphs": [
+            "The law and courts that govern this agreement are to be confirmed during legal review, and will appear here before launch."
+          ]
+        },
+        "changes": {
+          "title": "Changes to these terms",
+          "paragraphs": [
+            "We'll tell you about significant changes before they take effect. If you keep using {brand} after that, the new terms apply."
+          ]
+        }
+      }
+    },
+    "guidelines": {
+      "meta": {
+        "title": "Community Guidelines",
+        "description": "Draft Community Guidelines: how members treat each other on {brand}, and what our moderators act on."
+      },
+      "title": "Community Guidelines",
+      "lead": "{brand} works when everyone meets as an equal. These guidelines describe how we treat each other, and what our moderators act on.",
+      "sections": {
+        "respect": {
+          "title": "Talk to people, not about their height",
+          "paragraphs": [
+            "{brand} is built around people of short stature and open to people of all heights. Nobody here is a curiosity, an attraction or a novelty."
+          ],
+          "items": [
+            "Use the words people use for themselves, and ask if you're not sure.",
+            "Don't describe anyone as an attraction, a novelty or a type to collect.",
+            "Don't divide people into \"normal\" and \"other\". Everyone here is a member, whatever their height.",
+            "Don't make someone's height or body the subject of a message they didn't ask for.",
+            "Don't ask about medical history or diagnoses. People share what they choose."
+          ]
+        },
+        "harassment": {
+          "title": "Harassment",
+          "paragraphs": [
+            "No unwanted contact after someone has said no, insults, pile-ons, mocking or shaming. Repeated messages to someone who doesn't reply count too."
+          ]
+        },
+        "hate": {
+          "title": "Hate and discrimination",
+          "paragraphs": [
+            "No content that attacks or demeans people for their height, disability, race, ethnicity, nationality, religion, sex, gender identity, sexual orientation or age."
+          ]
+        },
+        "objectification": {
+          "title": "Objectification and fetishisation",
+          "paragraphs": [
+            "No treating anyone as a fetish, a fantasy or an object because of their height or body. That includes sexualised comments about someone's stature, collecting or seeking out people as a \"type\", and requests based on someone's body rather than who they are. This applies to profiles, messages, posts and events."
+          ]
+        },
+        "exploitation": {
+          "title": "Sexual exploitation",
+          "paragraphs": [
+            "No soliciting or offering sex for money, no sexual content involving anyone under 18, and no pressuring anyone into sexual conversations or content. We report child sexual exploitation to the authorities."
+          ]
+        },
+        "impersonation": {
+          "title": "Impersonation",
+          "paragraphs": [
+            "Be yourself. No pretending to be another person or an organisation, no fake profiles, and no misrepresenting your age."
+          ]
+        },
+        "scams": {
+          "title": "Scams",
+          "paragraphs": [
+            "No asking members for money, gifts, investments or financial details, and no romance scams or phishing links."
+          ]
+        },
+        "stalking": {
+          "title": "Stalking",
+          "paragraphs": [
+            "No tracking, monitoring or trying to find out where someone lives, works or goes, and no contacting them elsewhere after they've blocked you or said no."
+          ]
+        },
+        "threats": {
+          "title": "Threats",
+          "paragraphs": [
+            "No threatening violence or harm to anyone, including threats to expose private information."
+          ]
+        },
+        "images": {
+          "title": "Non-consensual image sharing",
+          "paragraphs": [
+            "No sharing intimate or private images of anyone without their consent, and no photos or videos of other people taken or shared to mock them."
+          ]
+        },
+        "spam": {
+          "title": "Spam",
+          "paragraphs": [
+            "No repetitive or bulk messages, advertising in conversations, or automated accounts."
+          ]
+        },
+        "reporting": {
+          "title": "Reporting",
+          "paragraphs": [
+            "If you see something that breaks these guidelines, report it from the profile, message, post or event. Reports are confidential: the person isn't told who reported them."
+          ]
+        },
+        "enforcement": {
+          "title": "What happens next",
+          "paragraphs": [
+            "Our moderation team reviews reports. Tools may help sort them, but a person makes the decision. Depending on how serious it is, we may remove content, warn, restrict features, suspend or permanently remove an account. You can appeal a decision about your account, and we'll explain the outcome."
+          ]
+        }
+      }
+    }
+  },
+  "auth": {
+    "shell": {
+      "home": "{brand} home",
+      "skipToContent": "Skip to main content"
+    },
+    "fields": {
+      "displayName": {
+        "label": "Display name",
+        "hint": "This is how other members see you. You can change it later."
+      },
+      "email": {
+        "label": "Email address"
+      },
+      "password": {
+        "label": "Password"
+      },
+      "newPassword": {
+        "label": "New password",
+        "hint": "At least {min} characters. A few unrelated words are easy to remember and hard to guess."
+      },
+      "confirmPassword": {
+        "label": "Type the new password again"
+      },
+      "currentPassword": {
+        "label": "Current password"
+      },
+      "dateOfBirth": {
+        "legend": "Date of birth",
+        "hint": "You need to be 18 or older to join. For example, 27 3 1995. We never show your date of birth to anyone.",
+        "day": "Day",
+        "month": "Month",
+        "year": "Year"
+      },
+      "country": {
+        "label": "Country you live in",
+        "placeholder": "Choose a country",
+        "hint": "Registration is opening country by country."
+      }
+    },
+    "errors": {
+      "summary": "Some details need changing. Check the fields marked below.",
+      "generic": "Something went wrong on our side and nothing was saved. Try again in a moment.",
+      "rateLimited": "Too many attempts. Wait a minute, then try again.",
+      "displayName": {
+        "required": "Enter the name other members will see.",
+        "too_long": "Use 50 characters or fewer."
+      },
+      "email": {
+        "required": "Enter your email address.",
+        "invalid": "Enter an email address in the format name@example.com.",
+        "too_long": "Use an email address of 254 characters or fewer."
+      },
+      "password": {
+        "required": "Enter a password.",
+        "too_short": "Use at least {min} characters.",
+        "too_long": "Use {max} characters or fewer.",
+        "invalid": "Use {max} characters or fewer."
+      },
+      "currentPassword": {
+        "required": "Enter your current password.",
+        "invalid": "Enter your current password.",
+        "wrong": "That password is incorrect. Check it and try again."
+      },
+      "confirmPassword": {
+        "required": "Type the new password again.",
+        "mismatch": "The passwords don't match. Type the same password in both fields."
+      },
+      "dateOfBirth": {
+        "required": "Enter your date of birth.",
+        "invalid": "Enter a real date, for example 27 3 1995.",
+        "in_future": "Your date of birth must be in the past.",
+        "too_early": "Check the year: it should be 1900 or later."
+      },
+      "countryCode": {
+        "required": "Choose the country you live in.",
+        "invalid": "Choose the country you live in."
+      }
+    },
+    "register": {
+      "title": "Create your account",
+      "intro": "Joining {brand} is free. You need to be 18 or older.",
+      "submit": "Create account",
+      "submitting": "Creating your account",
+      "haveAccount": "Already have an account? <link>Sign in</link>",
+      "underAgeTitle": "You need to be 18 or older to join {brand}.",
+      "underAgeBody": "We haven't kept any of the details you entered.",
+      "waitlistTitle": "Registration isn't open in {country} yet",
+      "waitlistBody": "We've added {email} to the waitlist. We'll write once you can join from {country}, and we won't use your address for anything else. Your password wasn't saved.",
+      "waitlistAction": "Back to the home page"
+    },
+    "verifyEmail": {
+      "sentTitle": "Check your email",
+      "sentBody": "We've sent a link to the address you entered. Open it to confirm your email, then sign in. The link works for 24 hours.",
+      "resendTitle": "No email?",
+      "resendBody": "Check your spam folder. If it isn't there, ask for a new link.",
+      "resendSubmit": "Send a new link",
+      "resending": "Sending",
+      "resent": "If that address has an account waiting to be confirmed, we've sent a new link.",
+      "confirmTitle": "Confirm your email address",
+      "confirmBody": "Select the button to finish setting up your account.",
+      "confirmSubmit": "Confirm email address",
+      "confirming": "Confirming",
+      "confirmedTitle": "Email address confirmed",
+      "confirmedBody": "Your account is ready. Sign in to continue.",
+      "signIn": "Sign in",
+      "invalidTitle": "This link has expired or has already been used",
+      "invalidBody": "Sign in with your email and password and we'll send you a new link if you still need one."
+    },
+    "login": {
+      "title": "Sign in",
+      "submit": "Sign in",
+      "submitting": "Signing in",
+      "forgot": "Forgot your password?",
+      "noAccount": "New to {brand}? <link>Create an account</link>",
+      "failed": "The email address or password is incorrect. Check them and try again.",
+      "unverified": "Confirm your email address first. We've sent a new link to {email}.",
+      "or": "or",
+      "google": "Continue with Google",
+      "googleHint": "Works once you've created an account with the same email address.",
+      "googleFailed": "Google sign-in didn't work. If you're new, create an account first, then you can use Google to sign in.",
+      "passwordChanged": "Your password has been changed. Sign in with your new password.",
+      "signedOut": "You've been signed out.",
+      "signedOutEverywhere": "You've been signed out on every device.",
+      "deletionRequested": "Your account will be deleted in {days} days and you've been signed out everywhere. To keep it, sign in again before then."
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "intro": "Enter the email address you use for {brand}. We'll send you a link to choose a new password.",
+      "submit": "Send reset link",
+      "submitting": "Sending",
+      "sentTitle": "Check your email",
+      "sentBody": "If an account exists for {email}, we've sent a link to reset its password. The link works for 1 hour.",
+      "backToSignIn": "Back to sign in"
+    },
+    "resetPassword": {
+      "title": "Choose a new password",
+      "intro": "Changing your password signs you out on every device.",
+      "submit": "Change password",
+      "submitting": "Changing password",
+      "invalidTitle": "This reset link has expired or has already been used",
+      "invalidBody": "Reset links work for 1 hour and only once. Ask for a new one.",
+      "requestNew": "Get a new link"
+    },
+    "account": {
+      "navLabel": "Account",
+      "security": "Security",
+      "export": "Your data",
+      "delete": "Delete account",
+      "signOut": "Sign out",
+      "signingOut": "Signing out",
+      "signedInAs": "Signed in as {name}"
+    },
+    "security": {
+      "title": "Security",
+      "sessionsTitle": "Where you're signed in",
+      "sessionsIntro": "If you see a device you don't recognise, sign it out and change your password.",
+      "thisDevice": "This device",
+      "device": "{browser} on {os}",
+      "unknownBrowser": "Unknown browser",
+      "unknownOs": "unknown system",
+      "signedIn": "Signed in {when}",
+      "lastActive": "Last active {when}",
+      "ipAddress": "IP address {ip}",
+      "revoke": "Sign out this device",
+      "revokeLabel": "Sign out this device: {device}, last active {when}",
+      "revoking": "Signing out",
+      "revoked": "That device has been signed out.",
+      "revokeFailed": "That device was already signed out.",
+      "onlyThisDevice": "You're only signed in on this device.",
+      "everywhereTitle": "Sign out everywhere",
+      "everywhereBody": "Signs you out on every device, including this one. Use it if you've lost a device or think someone else can get into your account.",
+      "everywhereSubmit": "Sign out everywhere",
+      "everywhereSubmitting": "Signing out everywhere",
+      "passwordTitle": "Change your password",
+      "passwordIntro": "Other devices are signed out when you change your password.",
+      "passwordSubmit": "Change password",
+      "passwordSubmitting": "Changing password",
+      "passwordChanged": "Your password has been changed and your other devices have been signed out."
+    },
+    "deleteAccount": {
+      "title": "Delete your account",
+      "intro": "Deleting your account removes your profile, photos, settings and verification results. This is what happens:",
+      "stepNow": "Right away, you're signed out on every device and your profile is hidden.",
+      "stepGrace": "For {days} days you can change your mind: signing in again keeps your account.",
+      "stepAfter": "After {days} days, your account and everything in it are deleted for good. This can't be undone.",
+      "exportFirst": "Want a copy of your data first? <link>Download your data</link>.",
+      "passwordLabel": "Enter your password to confirm",
+      "submit": "Delete my account",
+      "submitting": "Deleting your account",
+      "wrongPassword": "That password is incorrect. Your account hasn't been changed."
+    },
+    "exportData": {
+      "title": "Download your data",
+      "intro": "Get a copy of the information {brand} holds about you, as a JSON file you can open in any text editor.",
+      "includes": "It includes your account details, sign-in methods and devices, profile, photo details, self-identification, privacy settings, discovery preferences and verification results. It never includes your password or anyone else's information.",
+      "download": "Download my data",
+      "safety": "The file contains personal information. Keep it somewhere safe and don't share it."
+    },
+    "email": {
+      "greeting": "Hi {name},",
+      "footer": "You're receiving this because this address was used on {brand}.",
+      "verify": {
+        "subject": "Confirm your email address for {brand}",
+        "body": "Confirm your email address to finish creating your {brand} account.",
+        "action": "Confirm email address",
+        "expiry": "The link works for 24 hours. If you didn't create an account, you can ignore this email."
+      },
+      "reset": {
+        "subject": "Reset your {brand} password",
+        "body": "Someone asked to reset the password for your {brand} account.",
+        "action": "Choose a new password",
+        "expiry": "The link works for 1 hour. If you didn't ask for this, ignore this email and your password stays the same."
+      },
+      "existing": {
+        "subject": "Someone tried to create a {brand} account with your email",
+        "body": "Someone tried to register with this email address, but it already has a {brand} account.",
+        "signIn": "Sign in",
+        "reset": "Forgotten your password? Reset it here: {url}",
+        "ignore": "If it wasn't you, you don't need to do anything. Nobody can use your account without your password."
+      }
+    }
+  }
+}

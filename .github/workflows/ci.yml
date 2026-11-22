@@ -1,0 +1,106 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  # Non-secret values needed to build and boot the apps in CI.
+  APP_URL: http://localhost:3000
+  ADMIN_URL: http://localhost:3001
+  LAUNCH_MARKETS: KE
+
+jobs:
+  checks:
+    name: Lint, typecheck, tests, migrations, build
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: kinora
+          POSTGRES_PASSWORD: kinora
+          POSTGRES_DB: kinora
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U kinora" --health-interval 2s --health-timeout 3s --health-retries 15
+    env:
+      DATABASE_URL: postgresql://kinora:kinora@localhost:5432/kinora
+      TEST_DATABASE_URL: postgresql://kinora:kinora@localhost:5432/postgres
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm format:check
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - name: Schema and migrations are in sync
+        run: pnpm db:generate && git diff --exit-code -- packages/db/migrations && test -z "$(git status --porcelain -- packages/db/migrations)"
+      - run: pnpm db:check
+      - name: Migrations apply to an empty database
+        run: pnpm db:migrate
+      - name: Unit and database integration tests
+        run: pnpm test
+      - run: pnpm build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: next-builds
+          path: |
+            apps/web/.next
+            apps/admin/.next
+          include-hidden-files: true
+          retention-days: 1
+
+  e2e:
+    name: End-to-end (Playwright)
+    needs: checks
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: kinora
+          POSTGRES_PASSWORD: kinora
+          POSTGRES_DB: kinora
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U kinora" --health-interval 2s --health-timeout 3s --health-retries 15
+    env:
+      # Sign-up and sign-in need a database; the web server migrates it before starting.
+      DATABASE_URL: postgresql://kinora:kinora@localhost:5432/kinora
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with:
+          name: next-builds
+          path: apps
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:e2e
+        env:
+          CI: "true"
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report
+          retention-days: 7

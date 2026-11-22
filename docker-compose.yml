@@ -1,0 +1,23 @@
+# Local development database. Postgres 18 matches the version Neon runs.
+# Credentials here are for local use only; real environments use their own DATABASE_URL.
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: kinora
+      POSTGRES_PASSWORD: kinora
+      POSTGRES_DB: kinora
+    ports:
+      # 5433 so it won't clash with another Postgres already on 5432.
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - kinora-db:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kinora -d kinora"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+
+volumes:
+  kinora-db:

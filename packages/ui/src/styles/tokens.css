@@ -1,0 +1,119 @@
+/* GENERATED from packages/ui/src/tokens.ts. Do not edit by hand.
+   Regenerate with: pnpm --filter @kinora/ui tokens */
+
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --kn-bg: #F3F5F2;
+  --kn-surface: #FFFFFF;
+  --kn-surface-sunken: #E6EAE5;
+  --kn-ink: #1E1723;
+  --kn-ink-muted: #585160;
+  --kn-line: #D5DBD3;
+  --kn-line-strong: #7B8579;
+  --kn-primary: #0F6B5C;
+  --kn-primary-hover: #0B5549;
+  --kn-on-primary: #FFFFFF;
+  --kn-primary-soft: #DDEFEA;
+  --kn-primary-ink: #0B5A4D;
+  --kn-highlight: #F2A541;
+  --kn-on-highlight: #1E1723;
+  --kn-danger: #B42318;
+  --kn-on-danger: #FFFFFF;
+  --kn-danger-soft: #FDECEA;
+  --kn-success: #1C6E35;
+  --kn-success-soft: #E3F3E7;
+  --kn-warning-ink: #7A4F00;
+  --kn-warning-soft: #FFF2D3;
+  --kn-info-ink: #2C4A9C;
+  --kn-info-soft: #E7ECFA;
+  --kn-focus: #0F6B5C;
+}
+
+:root {
+  --kn-font-sans: "Schibsted Grotesk Variable", "Schibsted Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --kn-text-xs: 0.8125rem;
+  --kn-leading-xs: 1.45;
+  --kn-text-sm: 0.875rem;
+  --kn-leading-sm: 1.5;
+  --kn-text-base: 1rem;
+  --kn-leading-base: 1.55;
+  --kn-text-lg: 1.25rem;
+  --kn-leading-lg: 1.45;
+  --kn-text-xl: 1.5625rem;
+  --kn-leading-xl: 1.3;
+  --kn-text-2xl: 1.9375rem;
+  --kn-leading-2xl: 1.2;
+  --kn-text-3xl: 2.4375rem;
+  --kn-leading-3xl: 1.12;
+  --kn-text-4xl: 3.0625rem;
+  --kn-leading-4xl: 1.05;
+  --kn-text-5xl: 3.8125rem;
+  --kn-leading-5xl: 1;
+  --kn-radius-control: 0.5rem;
+  --kn-radius-panel: 0.875rem;
+  --kn-radius-person: 1.5rem;
+  --kn-duration-fast: 120ms;
+  --kn-duration-base: 200ms;
+  --kn-duration-slow: 320ms;
+  --kn-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --kn-touch-target: 2.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --kn-bg: #16121A;
+    --kn-surface: #211B27;
+    --kn-surface-sunken: #100D13;
+    --kn-ink: #F1EEF3;
+    --kn-ink-muted: #B6AEBC;
+    --kn-line: #352E3B;
+    --kn-line-strong: #837989;
+    --kn-primary: #4FC2AB;
+    --kn-primary-hover: #72D4C0;
+    --kn-on-primary: #0A1F1B;
+    --kn-primary-soft: #173430;
+    --kn-primary-ink: #7FDCC8;
+    --kn-highlight: #F6B85C;
+    --kn-on-highlight: #1E1723;
+    --kn-danger: #F97066;
+    --kn-on-danger: #2A0A07;
+    --kn-danger-soft: #3B1714;
+    --kn-success: #62D18D;
+    --kn-success-soft: #14301F;
+    --kn-warning-ink: #F5C451;
+    --kn-warning-soft: #33270E;
+    --kn-info-ink: #A2B8F6;
+    --kn-info-soft: #1B2341;
+    --kn-focus: #72D4C0;
+  }
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --kn-bg: #16121A;
+  --kn-surface: #211B27;
+  --kn-surface-sunken: #100D13;
+  --kn-ink: #F1EEF3;
+  --kn-ink-muted: #B6AEBC;
+  --kn-line: #352E3B;
+  --kn-line-strong: #837989;
+  --kn-primary: #4FC2AB;
+  --kn-primary-hover: #72D4C0;
+  --kn-on-primary: #0A1F1B;
+  --kn-primary-soft: #173430;
+  --kn-primary-ink: #7FDCC8;
+  --kn-highlight: #F6B85C;
+  --kn-on-highlight: #1E1723;
+  --kn-danger: #F97066;
+  --kn-on-danger: #2A0A07;
+  --kn-danger-soft: #3B1714;
+  --kn-success: #62D18D;
+  --kn-success-soft: #14301F;
+  --kn-warning-ink: #F5C451;
+  --kn-warning-soft: #33270E;
+  --kn-info-ink: #A2B8F6;
+  --kn-info-soft: #1B2341;
+  --kn-focus: #72D4C0;
+}

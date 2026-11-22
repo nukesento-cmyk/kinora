@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import "@kinora/ui/styles.css";
+
+/* Let Tailwind see the classes used inside the shared UI package. */
+@source "../../../../packages/ui/src";

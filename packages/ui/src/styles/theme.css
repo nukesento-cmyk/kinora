@@ -1,0 +1,114 @@
+/* KINORA theme for Tailwind CSS v4. Apps import this after "tailwindcss":
+     @import "tailwindcss";
+     @import "@kinora/ui/styles.css";
+     @source "<path to>/packages/ui/src";
+*/
+@import "@fontsource-variable/schibsted-grotesk";
+@import "./tokens.css";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme inline {
+  --font-sans: var(--kn-font-sans);
+
+  --color-bg: var(--kn-bg);
+  --color-surface: var(--kn-surface);
+  --color-surface-sunken: var(--kn-surface-sunken);
+  --color-ink: var(--kn-ink);
+  --color-ink-muted: var(--kn-ink-muted);
+  --color-line: var(--kn-line);
+  --color-line-strong: var(--kn-line-strong);
+  --color-primary: var(--kn-primary);
+  --color-primary-hover: var(--kn-primary-hover);
+  --color-on-primary: var(--kn-on-primary);
+  --color-primary-soft: var(--kn-primary-soft);
+  --color-primary-ink: var(--kn-primary-ink);
+  --color-highlight: var(--kn-highlight);
+  --color-on-highlight: var(--kn-on-highlight);
+  --color-danger: var(--kn-danger);
+  --color-on-danger: var(--kn-on-danger);
+  --color-danger-soft: var(--kn-danger-soft);
+  --color-success: var(--kn-success);
+  --color-success-soft: var(--kn-success-soft);
+  --color-warning-ink: var(--kn-warning-ink);
+  --color-warning-soft: var(--kn-warning-soft);
+  --color-info-ink: var(--kn-info-ink);
+  --color-info-soft: var(--kn-info-soft);
+  --color-focus: var(--kn-focus);
+
+  --text-xs: var(--kn-text-xs);
+  --text-xs--line-height: var(--kn-leading-xs);
+  --text-sm: var(--kn-text-sm);
+  --text-sm--line-height: var(--kn-leading-sm);
+  --text-base: var(--kn-text-base);
+  --text-base--line-height: var(--kn-leading-base);
+  --text-lg: var(--kn-text-lg);
+  --text-lg--line-height: var(--kn-leading-lg);
+  --text-xl: var(--kn-text-xl);
+  --text-xl--line-height: var(--kn-leading-xl);
+  --text-2xl: var(--kn-text-2xl);
+  --text-2xl--line-height: var(--kn-leading-2xl);
+  --text-3xl: var(--kn-text-3xl);
+  --text-3xl--line-height: var(--kn-leading-3xl);
+  --text-4xl: var(--kn-text-4xl);
+  --text-4xl--line-height: var(--kn-leading-4xl);
+  --text-5xl: var(--kn-text-5xl);
+  --text-5xl--line-height: var(--kn-leading-5xl);
+
+  --radius-control: var(--kn-radius-control);
+  --radius-panel: var(--kn-radius-panel);
+  --radius-person: var(--kn-radius-person);
+
+  --ease-kn: var(--kn-ease);
+  --spacing-touch: var(--kn-touch-target);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--kn-bg);
+    color: var(--kn-ink);
+    font-family: var(--kn-font-sans);
+    font-size: var(--kn-text-base);
+    line-height: var(--kn-leading-base);
+    font-feature-settings: "ss01";
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 750;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* One visible, consistent focus ring for keyboard users everywhere. */
+  :focus-visible {
+    outline: 3px solid var(--kn-focus);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--kn-primary-soft);
+    color: var(--kn-ink);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

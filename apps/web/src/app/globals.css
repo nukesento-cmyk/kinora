@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "@kinora/ui/styles.css";
+
+/* Let Tailwind see the classes used inside the shared UI package. */
+@source "../../../../packages/ui/src";
+
+/* The site's one considered animation: on the homepage illustration, the line between
+   two people turns jade as they connect. Answers nothing, so it plays once, and the
+   theme's reduced-motion rule removes it entirely. */
+@keyframes kn-connect {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.kn-connect {
+  transform-origin: left center;
+  animation: kn-connect 640ms var(--kn-ease) 400ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kn-connect {
+    animation: none;
+  }
+}
